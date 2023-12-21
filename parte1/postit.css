@@ -1,0 +1,157 @@
+html {
+    font-size: 1.2em;
+
+}
+
+#tasks {
+
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    
+    
+}
+
+.task {
+    width: 150px;
+    height: 150px;
+    box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.75);
+
+}
+
+
+#task1 {
+    background-color: red;
+    rotate: -4deg;
+}
+#task2 {
+    background-color: blue;
+    rotate: -7deg
+}
+#task3 {
+    background-color: green;
+    rotate: 5deg
+
+}
+#task4 {
+    background-color: violet;
+    rotate: 9deg
+}
+#task5 {
+    background-color: yellow;
+    rotate: -6deg
+}
+#task6 {
+    background-color: bisque;
+    rotate: -3deg
+}
+#task7 {
+    background-color: brown;
+    rotate: 7deg
+}
+#task8 {
+    background-color: aquamarine;
+    rotate: 4deg
+}
+
+#task1:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task2:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task3:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task4:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task5:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task6:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task7:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+#task8:hover {
+    rotate: 0deg;
+    scale: 1.2;
+
+}
+
+
+@keyframes Paste {
+    0% {
+        transform: translateY(-600px);
+        opacity: 100%;
+    }
+    
+    100% {
+        transform: translateY(0px);
+        opacity: 100%;
+        
+
+    }
+
+}
+
+
+
+
+#task1 {
+    animation: Paste 1s linear forwards 0s;
+    opacity: 0;
+}
+#task2 {
+    animation: Paste 1s linear forwards 0.3s;
+    opacity: 0;
+}
+#task3 {
+    animation: Paste 1s linear forwards 0.6s;
+    opacity: 0;
+}
+#task4 {
+    animation: Paste 1s linear forwards 0.9s;
+    opacity: 0;
+}
+#task5 {
+    animation: Paste 1s linear forwards 1.2s;
+    opacity: 0;
+}
+#task6 {
+    animation: Paste 1s linear forwards 1.5s;
+    opacity: 0;
+}
+#task7 {
+    animation: Paste 1s linear forwards 1.8s;
+    opacity: 0;
+}
+#task8 {
+    animation: Paste 1s linear forwards 2.1s;
+    opacity: 0;
+}
